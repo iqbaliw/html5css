@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <link rel="stylesheet" href="css/semantic-layout.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <section class="container">
+        <header><img src="images/logo.png" alt="logo"></header>
+        <section class="content">
+            <form action="" method="post">
+                <label class="form-style">
+                    Nama Lengkap
+                    <input type="text" name="" class="input" placeholder="Nama Lengkap">
+                </label>
+
+                <label class="form-style">
+                    Telepon
+                    <input type="number" name="" class="input" placeholder="">
+                </label>
+
+                <label class="form-style">
+                    Email
+                    <input type="email" name="" class="input" placeholder="">
+                </label>
+
+                <label class="form-style">
+                    Password
+                    <input type="password" name="" class="input" placeholder="">
+                </label>
+
+                <label class="form-style">
+                    Konten
+                    <textarea class="input"></textarea>
+                </label>
+
+                <fieldset class="form-style">
+                    <legend>Hobi</legend>
+                    <input type="checkbox" value="Koding">Koding
+                    <input type="checkbox" value="Basket">Basket
+                    <input type="checkbox" value="Futsal">Futsal
+                    <input type="checkbox" value="Menulis">Menulis
+                </fieldset>
+
+                <fieldset class="form-style">
+                    <legend>Pekerjaan</legend>
+                    <input type="radio" value="Direktur" name="pekerjaan">Direktur
+                    <input type="radio" value="Manajer" name="pekerjaan">Manajer
+                    <input type="radio" value="Karyawan" name="pekerjaan">Karyawan
+                    <input type="radio" value="Belum Bekerja" name="pekerjaan">Belum Bekerja
+                </fieldset>
+
+                <label class="form-style">
+                    Ukuran Sepatu
+                    <select name="" id="" class="input">
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                    </select>
+                </label>
+
+                <label class="form-style">
+                    Warna Favorit
+                    <input list="warna" class="input">
+                    <datalist id="warna">
+                        <option value="M">Merah
+                        <option value="B">Biru
+                        <option value="U">Ungu
+                    </datalist>
+                </label>
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+        <nav class="sidebar">
+            <a href="semantic-layout.html">Index</a>
+            <a href="form.html" class="active">Form</a>
+            <a href="table.html">Table</a>
+        </nav>
+        <footer>Footer</footer>
+    </section>
+</body>
+</html>

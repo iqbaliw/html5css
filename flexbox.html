@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background: grey;
+            height: 500px;
+            flex-wrap: nowrap; /* default value */
+            flex-direction: row; /* default value */
+            justify-content: flex-start; /* default value */
+            align-items: stretch; /* default value */
+        }
+        .flex-item {
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h1>Item 1</h1>
+            <p>Ini adalah konten</p>
+        </div>
+        <div class="flex-item">
+            <h1>Item 2</h1>
+            <p>Ini adalah konten</p>
+        </div>
+        <div class="flex-item">
+            <h1>Item 3</h1>
+            <p>Ini adalah konten</p>
+        </div>
+        <div class="flex-item">
+            <h1>Item 4</h1>
+            <p>Ini adalah konten</p>
+        </div>
+        <div class="flex-item">
+            <h1>Item 5</h1>
+            <p>Ini adalah konten</p>
+        </div>
+    </div>
+</body>
+</html>
